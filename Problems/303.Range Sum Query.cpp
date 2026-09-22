@@ -5,8 +5,16 @@
  * [303] Range Sum Query - Immutable
  */
 
+// Array.md, PrefixSum.md
+// Array, PrefixSum
+
 // @lc code=start
-class NumArray {
+
+#include <vector>
+using namespace std;
+
+class NumArray 
+{
 public:
     NumArray(vector<int>& nums) 
     {

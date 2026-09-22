@@ -5,7 +5,14 @@
  * [304] Range Sum Query 2D - Immutable
  */
 
+// Array.md, PrefixSum.md
+// Array, PrefixSum
+
 // @lc code=start
+
+#include <vector>
+using namespace std;
+
 class NumMatrix 
 {
 public:

@@ -6,18 +6,25 @@
  */
  
 // Recursion.md
-// Tree traversal
+// Tree Traversal
 // @lc code=start
-class Solution {
+
+#include <vector>
+using namespace std;
+
+class Solution 
+{
 public:
-    vector<vector<int>> permute(vector<int>& Nums) {
+    vector<vector<int>> permute(vector<int>& Nums) 
+    {
         vector<vector<int>> Result;
         vector<int> Track = {};
         vector<bool> Used(Nums.size(), false);
         dfs(Nums, Result, Track, Used);
         return Result;
     }   
-    void dfs(vector<int>& Nums, vector<vector<int>>& Result, vector<int>& Track, vector<bool>& Used) {
+    void dfs(vector<int>& Nums, vector<vector<int>>& Result, vector<int>& Track, vector<bool>& Used) 
+    {
         if (Track.size() == Nums.size()) {
             Result.push_back(Track);
             return;

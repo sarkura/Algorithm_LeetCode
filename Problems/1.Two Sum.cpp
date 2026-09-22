@@ -6,9 +6,20 @@
  */
 
 // @lc code=start
-class Solution {
+
+// Hash Table.md
+// Hash Table
+// @lc code=start
+
+#include <vector>
+#include <unordered_map>
+using namespace std;
+
+class Solution 
+{
 public:
-    vector<int> twoSum(vector<int>& nums, int target) {
+    vector<int> twoSum(vector<int>& nums, int target) 
+    {
         unordered_map<int, int> HashMap = {};
         int N = nums.size();
         for(int i = 0; i < N; i++)

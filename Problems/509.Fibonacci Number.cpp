@@ -9,7 +9,8 @@
 // decomposition problem
 
 // @lc code=start
-class Solution {
+class Solution 
+{
 public:
     int fib(int n) 
     {

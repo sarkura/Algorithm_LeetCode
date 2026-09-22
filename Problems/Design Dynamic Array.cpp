@@ -2,6 +2,8 @@
  * Design Dynamic Array
  */
 
+// Array.md
+// Array
 
 // @lc code=start
 
